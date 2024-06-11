@@ -1,0 +1,28 @@
+# Co-working Space Booking System
+
+This project is a simple co-working space booking system built using HTML, CSS, and JavaScript. It allows users to book desks for a specified time period, with different rates for individual and team desks and discounts for longer bookings. It also includes a dashboard showing the total revenue collected over time, categorized by membership tiers.
+
+## Features
+
+- Book individual desks or team desks
+- Three membership tiers for individual desks: Basic, Premium, and Executive
+- Fixed price for team desks
+- 10% discount for bookings longer than 3 hours
+- Prevents double bookings
+- Displays booking summary with total cost
+- Revenue dashboard categorized by membership tiers
+
+## Usage
+
+### Booking a Desk
+
+1. Enter your name and email.
+2. Select the type of desk (Individual or Team).
+3. If booking an individual desk, select the membership tier.
+4. Enter the number of hours you want to book the desk for.
+5. Click "Book Now" to make the reservation.
+6. The booking summary will be displayed, and the desk will be marked as booked.
+
+### Viewing the Dashboard
+
+- The dashboard shows the total revenue collected from different membership tiers and team desk bookings.
