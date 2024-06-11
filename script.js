@@ -81,16 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
     renderDashboard();
   }
 
-  function renderDashboard() {
-    dashboard.innerHTML = `
-              <h2>Revenue Dashboard</h2>
-              <p>Basic Membership: $${revenue.basic.toFixed(2)}</p>
-              <p>Premium Membership: $${revenue.premium.toFixed(2)}</p>
-              <p>Executive Membership: $${revenue.executive.toFixed(2)}</p>
-              <p>Team Desks: $${revenue.team.toFixed(2)}</p>
-          `;
-  }
-
   bookingForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
